@@ -1088,10 +1088,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   avoidee: {fileID: 1010444247}
-  visualizeLines: 0
+  visualizeLines: 1
+  speed: 0
   size_x: 8
   size_y: 8
-  cellSize: 1
+  cellSize: 2
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
