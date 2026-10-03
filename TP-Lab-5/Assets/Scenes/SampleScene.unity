@@ -956,7 +956,7 @@ GameObject:
   - component: {fileID: 1700345131}
   - component: {fileID: 1700345130}
   - component: {fileID: 1700345129}
-  - component: {fileID: 1700345134}
+  - component: {fileID: 1700345135}
   m_Layer: 3
   m_Name: Enemy
   m_TagString: Untagged
@@ -1075,7 +1075,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1700345134
+--- !u!114 &1700345135
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1084,14 +1084,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1700345128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d66ab3b8db1b5a43875f87126bbedfb, type: 3}
+  m_Script: {fileID: -925425294, guid: b68da84e740479e4b80ae7395ebee331, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   avoidee: {fileID: 1010444247}
   visualizeLines: 1
-  speed: 0
-  size_x: 8
-  size_y: 8
+  speed: 10
+  size_x: 15
+  size_y: 15
   cellSize: 2
   enemyLayer:
     serializedVersion: 2
